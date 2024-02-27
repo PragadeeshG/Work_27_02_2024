@@ -1,0 +1,15 @@
+create table if not exists upload_controls(
+upload_indicator integer not null,
+upload_mode varchar(255) null,
+auto_enabled varchar(255) null,
+upload_attestations varchar(255) null,
+to_be_migrated_on varchar(255) null,
+formats_migrated integer null,
+test_controls_met char null,
+upload_evidences_attached char null,
+upload_coverage integer null,
+team_manager_contact varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint upload_controls_pk primary key(upload_indicator));

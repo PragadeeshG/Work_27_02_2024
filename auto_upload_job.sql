@@ -1,0 +1,15 @@
+create table if not exists auto_upload_job(
+job_id integer not null,
+upload_time varchar(255) null,
+down_time varchar(255) null,
+emailds_from varchar(255) null,
+email_to varchar(255) null,
+subject_pattern varchar(255) null,
+signature varchar(255) null,
+cc varchar(255) null,
+time_zone varchar(255) null,
+team_contact varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint auto_upload_job_pk primary key(job_id));

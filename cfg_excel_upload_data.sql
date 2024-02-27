@@ -1,0 +1,16 @@
+create table if not exists cfg_excel_upload_data(
+upload_id integer not null,
+column1 varchar(255) null,
+column2 varchar(255) null,
+column3 varchar(255) null,
+column4 varchar(255) null,
+column5 varchar(255) null,
+column6 varchar(255) null,
+column7 varchar(255) null,
+column8 varchar(255) null,
+column9 varchar(255) null,
+column10 varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint cfg_excel_upload_data_pk primary key(upload_id));
